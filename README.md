@@ -8,7 +8,7 @@ Link to the preregistration: https://osf.io/72c9x/registrations
 
 # Outline 
 
-This repository contains all the documents (except the data) that are used to create the paper "Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life". Here, we describe the content of the repository. Please read this information carefully before using the documents.
+This repository contains all the documents (except the data) that are used to create the paper "Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life". Here, we describe the content of the repository. Please read this information carefully before using the documents. We will discuss the following folders (the other files are not relevant for the paper): 
 
 1. Figures 
 2. R code 
@@ -103,7 +103,7 @@ m.veenman@fsw.leidenuniv.nl
 # Citation 
 Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verkuil, B., Fried, E. I., and Elzinga, B. M., (2022; preprint). Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life. 
 
-@misc{Veenman_2022H,
+@misc{Veenman_2022H, 
  title={Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life},
  url={},
  DOI={},
