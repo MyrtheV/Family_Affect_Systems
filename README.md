@@ -16,7 +16,7 @@ This repository contains all the documents (except the data) that are used to cr
 
 # 1. Figures 
 
-This folder contains all the figures that are used in the manuscript. The folder also contains the folder `Additional Networks` consisting of the networks shown in Appendix H. For the figures that are created in R, the R code is provided in the "R objects" folder under "Figures". 
+This folder contains all the figures that are used in the manuscript. The folder also contains the folder `Additional Networks` consisting of the networks shown in Appendix H. For the figures that are created in R, the R code is provided in the "R code" folder under "Figures". 
 
 # 2. R code 
 
@@ -36,15 +36,15 @@ This folder contains three other folders with R code for the respective Appendix
 
 ## 2.2 Figures 
 
-This folder consists of all R code per figure shown in the paper. 
+This folder consists of R code for the figures that are shown in the paper. 
 
 ## 2.3 Functions 
 
-This folder consists of three `.R` files. The file `famvargeneff_function.R` contains the R function for Figure 1 in the paper. The file `kalmanfilter_functions.R` contains of functions for the data imputation. The file `stationaritycheck_functions.R` contains several functions to check the stationarity of the data. 
+This folder consists of three `.R` files. The file `famvargeneff_function.R` contains the R function for Figure 1 in the paper. The file `kalmanfilter_functions.R` contains functions for the data imputation using the Kalman filter. The file `stationaritycheck_functions.R` contains several functions to check the stationarity of the data. 
 
 ## 2.4 Main 
 
-In this folder is a `.R` file to estimate the family networks shown in Figure 1 based on the 60 families. 
+In this folder, there is an `.R` file with R code to estimate the family networks shown in Figure 1 based on the 60 families. 
 
 ## 2.5 Simulation 
 
@@ -70,7 +70,7 @@ This folder contains the model fit of the network shown in Figure 1 based on the
 
 ## 3.3 Simulation 
 
-This folder contains two folders. The folder `Network model` contains the `.rds` file with the network model fit based on 59 families that is used for the simulation. The folder `Results` contains another folder, `Separate files`, with the results per 100 simulations (10 files) that is combined into one file called `sim_famnetwork_res_total_13042022.rds`. This file is also available as `.csv` file. Each row represents a repetition. The column `nTime` indicates how many time points are used for the repetition (i.e., 20, 56, or 100). The column `nind` represents the number of families used for the repetition (i.e., 30, 45, or 59) and `nmissing` the percentage of missing data (e.g., 0.25 means 25% missing data). The column `network` indicates what type of network is compared. For the simulation, we checked `temporal_thresholded` representing the nomothetic temporal network in the paper, `contemporaneous_thresholded` represeting the nomothetic contemporaneous network in the paper, `temporal_subject` representing the idiographic temporal networks, and `contemporaneous_subject` representing the idiograpic contemporaenous networks. The column `measure` specifies which comparison measure (i.e., correlation, bias, specificity, sensitivity, or precision) the row contains for which the column `value` contains the exact value of this comparison measure in the repetition. The columns `rep` and `id` contain information on the number of repetitions. 
+This folder contains two folders. The folder `Network model` contains the `.rds` file with the network model fit based on 59 families that is used for the simulation. The folder `Results` contains another folder, `Separate files`, with the results per 100 simulations (10 files) that is combined into one file called `sim_famnetwork_res_total_13042022.rds`. This file is also available as `.csv` file. Each row represents a repetition. The column `nTime` indicates how many time points are used for the specific repetition (i.e., 20, 56, or 100). The column `nind` represents the number of families used for the repetition (i.e., 30, 45, or 59) and `nmissing` the percentage of missing data (e.g., 0.25 means 25% missing data). The column `network` indicates what type of network is compared. For the simulation, we checked `temporal_thresholded` representing the nomothetic temporal network in the paper, `contemporaneous_thresholded` represeting the nomothetic contemporaneous network, `temporal_subject` representing the idiographic temporal networks, and `contemporaneous_subject` representing the idiograpic contemporaneous networks. The column `measure` specifies which comparison measure (i.e., correlation, bias, specificity, sensitivity, or precision) the row contains for which the column `value` contains the exact value of this comparison measure in the repetition. The columns `rep` and `id` contain information on the number of repetitions. 
 
 # R Packages 
 
