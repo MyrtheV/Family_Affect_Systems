@@ -1,5 +1,7 @@
 # Family_Affect_Systems
 
+Note: This version of the abstract and repository are posted prior to formal peer review.
+
 # Abstract 
 
 Adolescence is a time period characterized by extremes in affect and increasing prevalence of mental health problems. During this time, the family remains a crucial source of both support and stress. Prior studies have illustrated how affect states of adolescents are related to interactions with parents. However, it remains unclear how affect states among family triads, that is adolescents and their parents, are related in daily life. This study investigated affect state dynamics (happy, sad, relaxed, and irritated) of 60 family triads, including 60 adolescents ($M_{age}$ = 15.92, $63.3$\% females), fathers and mothers ($M_{age} = 49.16$). The families participated in the RE-PAIR study, where they reported their affect states in four ecological momentary assessments per day for 14 days. We performed two studies. First, we used multilevel vector-autoregressive network models to estimate affect dynamics across all families, and for each family individually. Resulting models elucidated how family affect states were related at the same moment, and over time. We identified relations from parents to adolescents and vice versa, for both positive and negative affect, such as the reciprocal relation of irritation between adolescents and their parents, while considering family variation in these relations. Second, we evaluated the statistical performance of the network model via a simulation study, varying the percentage missing data, the number of families, and the number of time points. We conclude with substantive and statistical recommendations for future research on family affect dynamics. 
@@ -112,4 +114,15 @@ Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verku
  year={2022},
 }
 
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
