@@ -60,7 +60,7 @@ This folder consists of three other folders:
 2. Main 
 3. Simulation 
 
-All the folders contain `.rds` files with the model fit that the results in the paper are based on. These `.rds` files can be loaded in R to use. We will discuss each folder. 
+All the folders contain `.rds` files with results of simulations and model fits on which the results in the paper are based. Note that the model fits are mlVAR objects without the data and IDs. The `.rds` files can be loaded in R to use. We will discuss each folder. 
 
 ## 3.1 Appendix 
 
