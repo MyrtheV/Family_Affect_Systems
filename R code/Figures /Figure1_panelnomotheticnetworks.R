@@ -35,7 +35,9 @@ temporal_show_7a_22102021 <- plot(moodamfs_model_22102021,
                                   label.cex = 2,
                                   esize = 23,
                                   cut = 0, 
-                                  mar = rep(4,4))
+                                  mar = rep(4,4), 
+                                  asize = 5, 
+                                  legend = FALSE)
 
 qgraph(temporal_show_7a_22102021, labels = (rep(c("Happy", "Sad", "Relaxed", "Irritated"), 3)), 
        edge.labels = 1:27, 
@@ -59,7 +61,8 @@ contemp_show_20102021 <- plot(moodamfs_model_20202021,
                               label.cex = 2,
                               esize = 23,
                               cut = 0, 
-                              rule = "and")
+                              rule = "and", 
+                              asize = 5)
 
 
 qgraph(contemp_show_20102021, labels = (rep(c("Happy", "Sad", "Relaxed", "Irritated"), 3)), 
