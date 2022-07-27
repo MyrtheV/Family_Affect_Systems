@@ -103,14 +103,14 @@ Leiden University
 m.veenman@fsw.leidenuniv.nl 
 
 # Citation 
-Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verkuil, B., Fried, E. I., and Elzinga, B. M., (2022; preprint). Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life. 
+Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verkuil, B., Epskamp, S., Fried, E. I., and Elzinga, B. M., (2022; preprint). Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life. 
 
 @misc{Veenman_2022H, 
  title={Happy Parents, Happy Child? A Study of Family Affect Systems in Daily Life},
  url={},
  DOI={},
  publisher={},
- author={Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verkuil, B., Fried, E. I., and Elzinga, B. M.},
+ author={Veenman, M., Janssen, L. H. C., van Houtum, L. A. E. M., Wever, M. C. M. , Verkuil, B., Epskamp, S., Fried, E. I., and Elzinga, B. M.},
  year={2022},
 }
 
